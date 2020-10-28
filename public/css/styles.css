@@ -1,0 +1,275 @@
+.primary-overlay {
+  /* background: rgba(112, 81, 176, 0.7); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  /* background-repeat: repeat-y; */
+  background-size: cover;
+  /* overflow: hidden; */
+}
+
+h5 > a {
+  text-decoration: none;
+  text-decoration-color: none;
+  color: plum;
+}
+h5 > a:hover {
+  color: purple;
+}
+h5 + p {
+  color: #666;
+}
+h4 {
+  color: plum;
+  text-align: center;
+  transform: translateY(0);
+  transition: all 0.8s ease-in;
+}
+
+h4:hover {
+  color: purple;
+
+  transform: translateY(-2px);
+  transition: all 0.8s ease-out;
+}
+
+/* .menu-link {
+  transform: translateY(0);
+  transition: all .8s ease-in;
+}
+
+.menu-link:hover {
+  transform: translateY(-2px);
+  transition: all .8s ease-out;
+} */
+
+/* light purple #e9d3ff */
+
+.main-header {
+  /* background: url(../img/background.jpg); */
+  background-size: cover;
+  background-position: center;
+  /* min-height: 550px; */
+  color: white;
+}
+
+.main-header .showcase {
+  padding-top: 110px;
+}
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
+
+.menu-link {
+  transform: translateY(0);
+  transition: all 0.8s ease-in;
+}
+
+.menu-link:hover {
+  transform: translateY(-2px);
+  transition: all 0.8s ease-out;
+}
+
+.social-btn {
+  transition: all 0.15s ease-in;
+}
+
+.social-btn:hover {
+  color: #d847f1;
+  transition: all 0.25s ease-out;
+}
+
+.showcase a {
+  margin: 0 15px;
+}
+
+.signup-btn {
+  transform: scale(1);
+  transition: all 0.15s ease-in;
+}
+
+.signup-btn:hover {
+  transform: scale(1.2);
+  transition: all 0.25s ease-out;
+}
+
+.section-about {
+  padding-top: 40px;
+}
+
+@media (max-width: 500px) {
+  .section-about {
+    text-align: center;
+    padding-top: 0;
+  }
+}
+
+.section-developers {
+  position: relative;
+  background: url(../img/code.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+.section-podcast {
+  position: relative;
+  background: url(../img/circuit.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+.section-podcast a {
+  margin-top: 40px;
+}
+
+.section-podcast .primary-overlay {
+  /* background: rgba(112, 81, 176, 0.9); */
+}
+
+@media (max-width: 500px) {
+  .section-developers,
+  .section-podcast {
+    min-height: 240px;
+  }
+
+  .section-podcast {
+    text-align: center;
+  }
+
+  .section-podcast a {
+    margin-top: 5px;
+  }
+}
+
+.carousel-item p {
+  font-size: 20px !important;
+}
+
+.page-footer ul {
+  margin-top: 30px;
+}
+
+@media (max-width: 500px) {
+  .page-footer ul {
+    margin-top: 0;
+  }
+}
+
+.modal-footer {
+  padding: 4px 15px !important;
+  height: 76px !important;
+}
+
+.modal-footer a {
+  margin: 6px 10px !important;
+}
+
+.modal-footer .fa {
+  margin-right: 10px;
+}
+
+.main-header-inner {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: white;
+}
+
+.main-header-inner .showcase {
+  padding-top: 55px;
+}
+
+.tabs {
+  margin-top: 30px;
+}
+
+.tabs .indicator {
+  background-color: #6a1b9a !important;
+}
+
+.offers {
+  margin-top: 10%;
+}
+
+.section-signup form {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 785px) {
+  .offers {
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 640px) {
+  .offers {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .section-signup form {
+    margin-bottom: 0;
+  }
+}
+
+.btn-extend {
+  display: block;
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 220px;
+}
+
+.card-group {
+  text-align: center;
+  margin: auto;
+  width: 50rem;
+  height: 20rem;
+}
+
+.card-title {
+  padding: 1px;
+}
+
+.item-container {
+  padding: 10px;
+}
+
+a {
+  list-style: none;
+  color: plum;
+  transform: translateY(0);
+  transition: all 0.8s ease-in;
+  cursor: pointer;
+}
+
+a:hover {
+  color: purple;
+  transform: translateY(-2px);
+  transition: all 0.8s ease-out;
+}
+
+/* .container {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+} */
