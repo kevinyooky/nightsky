@@ -9,7 +9,7 @@ class VideoDetail extends React.Component {
           <iframe
             title="video player"
             width="749"
-            height="300"
+            height="450"
             key={video.id.videoId}
             src={`https://www.youtube.com/embed/${video.id.videoId}`}
           />

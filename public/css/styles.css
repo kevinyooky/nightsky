@@ -237,7 +237,7 @@ h4:hover {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 220px;
+  margin: 400px 220px 120px 220px;
 }
 
 .card-group {
@@ -269,7 +269,3 @@ a:hover {
   transition: all 0.8s ease-out;
 }
 
-/* .container {
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-} */

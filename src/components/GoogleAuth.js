@@ -55,6 +55,7 @@ class GoogleAuth extends React.Component {
       return (
         <button
           onClick={this.onSignInClick}
+          id={"sign-in"}
           class="btn purple waves-effect waves-grey modal-trigger"
           style={{ color: "#e9d3ff" }}
         >

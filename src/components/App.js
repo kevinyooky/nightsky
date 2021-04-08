@@ -27,8 +27,8 @@ class App extends React.Component {
       current = "milky way documentary";
     }
 
-    // const KEY = "AIzaSyB0LBQP2JTP37L8ji9GcAXfj11G7oXG4ec";
-    const KEY = "AIzaSyBITxTd1lCV021Kc8ql5wzKmq1E41XDvxs";
+    const KEY = "AIzaSyB0LBQP2JTP37L8ji9GcAXfj11G7oXG4ec";
+    // const KEY = "AIzaSyBITxTd1lCV021Kc8ql5wzKmq1E41XDvxs";
 
     const response = await youtube.get("/search", {
       params: {

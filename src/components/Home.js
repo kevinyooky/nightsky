@@ -58,10 +58,7 @@ const Home = () => {
                 <h5 class="grey-text text-darken-4">
                   <NavLink to="/milkyway">Milky Way</NavLink>
                 </h5>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Repudiandae, quod.
-                </p>
+                <p>Learn about your favorite galaxy, the Milky Way.</p>
               </div>
             </div>
             <div class="col s12 m4">
@@ -74,8 +71,7 @@ const Home = () => {
                   <NavLink to="/stargazing">Star Gazing</NavLink>
                 </h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Repudiandae, quod.
+                  Learn about the constellations and stargazing fundamentals. 
                 </p>
               </div>
             </div>
@@ -89,8 +85,7 @@ const Home = () => {
                   <NavLink to="/telescopes">Telescope</NavLink>
                 </h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Repudiandae, quod.
+                  All star gazers need a telescope for better vision.
                 </p>
               </div>
             </div>
